@@ -2,4 +2,4 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def index(request):
-   return HttpResponse("This has been deployed successful one more time Radhi!")
+   return HttpResponse("This has been deployed successful one more time test2!")

@@ -84,7 +84,7 @@ pipeline {
       // s3BundleType: this is the file type of our release
       // waitForCompletion: this is if we want our Jenkins pipeline
       //       to wait for CodeDeploy to finish deploying the app
-      stage('Deploy') {
+    /*  stage('Deploy') {
          steps {
             withAWS(credentials: "${AWS_CREDENTIALS}", region: "${AWS_REGION}") {
                createDeployment(
@@ -97,7 +97,7 @@ pipeline {
                )
             }
          }
-      }
+      }*/
    }
 
    // Here are actions that occur AFTER the pipeline runs
